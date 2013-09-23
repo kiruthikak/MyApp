@@ -31,5 +31,15 @@ public class MainActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+ 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
 }
