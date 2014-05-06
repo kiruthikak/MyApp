@@ -1,4 +1,4 @@
-package com.np.samplegitapp;
+package com.sourcepac.samplegitapp;
 
 import com.example.samplegitapp.R;
 
